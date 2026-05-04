@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta name="description" content="Frihedens Blomster — lokal blomsterbutik i Hvidovre. Håndlavede buketter, levering samme dag. Interflora-partner." />
+    <title>Frihedens Blomster — Din blomsterbutik i Hvidovre</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <header>
+      <nav class="site-nav" aria-label="Primær navigation">
+        <a href="#hjem" class="nav-logo" aria-label="Frihedens Blomster — gå til forsiden">
+          <span class="nav-logo-text">FRIHEDENS<br />BLOMSTER</span>
+        </a>
+
+        <div class="nav-center">
+          <span class="nav-title">Frihedens Blomster-sandkassesite</span>
+        </div>
+
+        <div class="nav-right">
+          <ul>
+            <li><a href="#buketter">Buketter</a></li>
+            <li><a href="#om">Om os</a></li>
+            <li><a href="#galleri">Galleri</a></li>
+            <li><a href="#levering">Levering</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+          <a href="#mobNav" class="nav-hamburger" aria-label="Åbn menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MOBILE NAV — opens via :target CSS, closes by clicking any link -->
+    <div class="mob-nav" id="mobNav">
+      <a href="#" class="mob-nav-close" aria-label="Luk menu">&times;</a>
+      <ul>
+        <li><a href="#buketter">Buketter</a></li>
+        <li><a href="#om">Om os</a></li>
+        <li><a href="#galleri">Galleri</a></li>
+        <li><a href="#levering">Levering</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+      <a href="#kontakt" class="mob-nav-cta">Bestil her →</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="hjem">
+      <div class="hero-film">
+        <img class="hero-photo" src="img/Hero Section 16x9 or 2x1 main.webp" alt="Friske blomster i vand — peach roser mod periwinkle baggrund" width="1440" height="810" fetchpriority="high" />
+      </div>
+      <div class="hero-vignette"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Friske blomster · Samme dag · Hvidovre og omegn</p>
+        <h1 class="hero-h1">
+          <span class="hero-line hero-line-1">DER BEHØVER</span>
+          <span class="hero-line hero-line-2">IKKE VÆRE</span>
+          <span class="hero-line hero-line-3">EN GRUND.</span>
+        </h1>
+        <a href="#buketter" class="hero-btn">Ja, send blomster →</a>
+      </div>
+    </section>
+
+    <!-- INTRO ROW -->
+    <section class="intro-row" id="buketter">
+      <div class="intro-photo-col">
+        <img src="img/1440x960_a copy.webp" alt="Blomster i en blå og en limegrøn taske mod lyseblå baggrund" width="1440" height="960" loading="lazy" />
+        <div class="intro-photo-overlay">
+          <p>Årstidens bedste — bundet for hånd</p>
+          <small>Håndlavet · Levering samme dag</small>
+        </div>
+      </div>
+
+      <div class="intro-text-col" id="om">
+        <div class="intro-cell overskrift-cell">
+          <h2 class="overskrift-h">Vokset ude.<br />Bundet her.<br />Leveret til dig.</h2>
+        </div>
+        <div class="intro-cell underoverskrift-cell">
+          <p class="underoverskrift-h">Blomster ændrer noget. Vi ved ikke helt hvad. Men vi binder dem alligevel.</p>
+        </div>
+        <div class="intro-cell tekstafsnit-cell">
+          <p class="tekstafsnit-p">
+            Frihedens Blomster er ikke en kæde. Vi er en rigtig butik på Hvidovre Strandvej — med rigtige mennesker, rigtige årstider og rigtige blomster bundet for hånd. Vi spørger ikke om anledningen. Vi ved bare, at det betyder noget.
+          </p>
+          <a href="#kontakt" class="btn-dark">Find din buket →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION BAR -->
+    <div class="section-bar" id="galleri">
+      <span class="section-bar-title">Se hvad vi har lavet.</span>
+      <span class="section-bar-meta">Galleri · Sæson 2025</span>
+    </div>
+
+    <!-- GALLERY -->
+    <section aria-label="Galleri">
+      <div class="gallery-grid">
+        <div class="g-cell g-b2">
+          <img src="img/2x3 or 1000x1500 copy.webp" alt="Hånd løfter en frodig buket med hvide og rosa blomster mod en lyseblå himmel" width="700" height="1050" loading="lazy" />
+          <div class="g-label"><span>Årets buket</span></div>
+        </div>
+
+        <div class="g-cell g-b3">
+          <img src="img/16x9 or wide copy.webp" alt="Blomster og sæsonmateriale spredt på et hvidt bord med saks og snor" width="1600" height="900" loading="lazy" />
+          <div class="g-label"><span>Bare til dig</span></div>
+        </div>
+
+        <div class="g-cell g-b4">
+          <img src="img/a_1x1 or 1080x1080 copy.webp" alt="Muscari blomsterløg med rødder og blå-lilla blomstertoppe på hvid baggrund" width="800" height="800" loading="lazy" />
+          <div class="g-label"><span>Helt fra bunden</span></div>
+        </div>
+
+        <div class="g-cell g-b5">
+          <img src="img/b_1x1 or 1080x1080 copy.webp" alt="Person i blå jakke holder en håndlavet buket med hvide og orange blomster" width="1440" height="960" loading="lazy" />
+          <div class="g-label"><span>Pakket med omhu</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" id="kontakt">
+      <div class="footer-main">
+        <div>
+          <div class="footer-logo">Frihedens Blomster</div>
+          <p class="footer-tagline">Lokal blomsterbutik siden 1987. Faglærte hænder, friske blomster og levering, der faktisk virker.</p>
+          <span class="footer-badge">Interflora-partner · Global levering</span>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-h">Butikken</div>
+          <ul>
+            <li><a href="#buketter">Buketter</a></li>
+            <li><a href="#">Bryllup</a></li>
+            <li><a href="#">Sorg</a></li>
+            <li><a href="#">Planter</a></li>
+            <li><a href="#">Gavekort</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-h">Information</div>
+          <ul>
+            <li><a href="#om">Om os</a></li>
+            <li><a href="#levering">Levering</a></li>
+            <li><a href="https://interflora.dk" rel="noopener">Interflora</a></li>
+            <li><a href="#">Handelsbetingelser</a></li>
+            <li><a href="#">Privatlivspolitik</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-h">Kontakt</div>
+          <ul>
+            <li><a href="tel:+4536751234">36 75 12 34</a></li>
+            <li><a href="mailto:blomster@frihedens.dk">blomster@frihedens.dk</a></li>
+            <li><a href="#">Hvidovre Strandvej 12</a></li>
+            <li><a href="#">2650 Hvidovre</a></li>
+            <li><a href="#">Man–lør 9–18</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bar">
+        <span class="footer-copy">© 2026 Daria Novikova</span>
+        <span class="footer-credit">Sandkassesite – med fokus på indholdsproduktion</span>
+      </div>
+    </footer>
+  </body>
+</html>
