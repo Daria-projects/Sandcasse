@@ -34,8 +34,7 @@ body {
 
 /* 
    NAV
-   Three sections: logo | title | links
-   */
+    */
 
 .site-nav {
   position: sticky;
@@ -129,7 +128,7 @@ body {
 
 /* 
    MOBILE NAV OVERLAY
-   */
+ */
 
 .mob-nav {
   display: none;
@@ -187,7 +186,7 @@ body {
 
 /* 
    HERO
-    */
+   */
 
 .hero {
   position: relative;
@@ -268,8 +267,7 @@ body {
 
 /*
   Each headline line uses a CSS custom property --delay
-  so I only need one animation declaration.
-  Same pattern is used for gallery cells below.
+  so I only need one animation declaration
 */
 .hero-line {
   display: block;
@@ -319,11 +317,11 @@ body {
   }
 }
 
-/*
+/* 
    INTRO ROW
    Mobile: text column above, photo below
    Tablet+: photo left, text right
-    */
+  */
 
 .intro-row {
   display: grid;
@@ -571,7 +569,7 @@ body {
 
 /* 
    FOOTER
-    */
+   */
 
 .site-footer {
   background: var(--primary);
@@ -581,13 +579,13 @@ body {
 
 .footer-main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
   padding: 44px 24px 36px;
   border-bottom: 1px solid rgba(205, 218, 255, 0.07);
 }
 
-/* First child (logo + tagline) spans both columns on mobile */
+/* Logo + tagline spans all 3 columns on mobile */
 .footer-main > div:first-child {
   grid-column: 1 / -1;
 }
@@ -623,6 +621,10 @@ body {
   border-radius: 4px;
 }
 
+.footer-col {
+  text-align: left;
+}
+
 .footer-col-h {
   font-family: "Inter", sans-serif;
   font-size: 11px;
@@ -635,6 +637,7 @@ body {
 
 .footer-col ul {
   list-style: none;
+  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 11px;
@@ -642,7 +645,7 @@ body {
 
 .footer-col ul li a {
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   color: var(--on-dark);
   text-decoration: none;
   transition: color 0.2s;
@@ -673,7 +676,7 @@ body {
   text-transform: uppercase;
 }
 
-/* 
+/* =
    TABLET  768px – 1024px
     */
 
@@ -732,6 +735,9 @@ body {
   .footer-main > div:first-child {
     grid-column: 1;
   }
+  .footer-col ul li a {
+    font-size: 15px;
+  }
   .footer-bar {
     flex-direction: row;
     align-items: center;
@@ -741,7 +747,7 @@ body {
 
 /* 
    DESKTOP  ≥1025px
-    */
+   */
 
 @media (min-width: 1025px) {
   .site-nav {
@@ -858,7 +864,7 @@ body {
 
 /* 
    SMALL MOBILE  ≤380px
-   */
+  */
 
 @media (max-width: 380px) {
   .hero {
